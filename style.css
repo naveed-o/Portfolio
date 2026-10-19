@@ -1,5 +1,6 @@
 body{
-    text-align: center;
+    font-family: 'Monocraft', sans-serif;
+    font-size: 16px;
     background-color: rgb(33, 34, 34);
     color: white;
 }
@@ -7,11 +8,27 @@ body{
 p{
     color: white;
 }
+
 mark{
     background-color: rgba(0, 0, 0, 0);
     color: rgb(0, 150, 150);
 }
 
+h1{
+    text-align: center;
+}
+
 h2{
     color: rgb(0, 150, 150);
+}
+b{
+    color: rgb(0, 150, 150);
+}
+
+@font-face {
+  font-family: 'Monocraft';
+  src: url('fonts/Monocraft.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
