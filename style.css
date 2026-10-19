@@ -8,7 +8,7 @@ body{
     font-family: 'Monocraft', sans-serif;
     font-size: 16px;
     background-color: rgb(33, 34, 34);
-    background-image: linear-gradient(to bottom, rgb(17, 55, 55), rgb(39, 0, 39));
+    background-image: linear-gradient(to bottom, rgb(23, 76, 76), rgb(28, 0, 59));
     color: white;
     margin: 50px;
     text-shadow: 3px 3px 1px var(--purple);
@@ -36,6 +36,36 @@ body{
     box-shadow: 6px 6px 2px var(--purple);
 }
 
+.container_footer {
+    display: grid;
+}
+
+.container_footer div {
+    text-align: right;
+    border: 5px;
+    width: auto;
+    background-color: rgb(38, 0, 94);
+    padding: 20px;
+    margin-left: -50px;
+    margin-right: -50px;
+    margin-bottom: -60px;
+}
+
+.container_footer_2 {
+    display: grid;
+}
+
+.container_footer_2 div {
+    text-align: center;
+    
+    width: auto;
+    background-color: rgba(59, 0, 147, 0);
+    padding: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: -50px;
+    font-size: 20px;
+}
 p{
     color: white;
 }
