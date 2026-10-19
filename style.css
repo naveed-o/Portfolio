@@ -1,3 +1,9 @@
+*{
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(50, 50, 50) var(--black);
+}
+
 :root{
     --aqua: rgb(0, 255, 255);
     --purple: rgb(174, 3, 174);
@@ -66,6 +72,22 @@ body{
     margin-bottom: -50px;
     font-size: 20px;
 }
+
+.first_animation {
+    animation: fadeIn 2s ease-in-out;
+}
+
+.second_animation {
+    animation: fadeIn 2s ease-in-out;
+    animation: fade_to_top 2s ease-in-out;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+
+
+
 p{
     color: white;
 }
@@ -92,4 +114,14 @@ b{
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fade_to_top {
+  from {transform: translateY(100px); opacity: 0;}
+  to {transform: translateY(0); opacity: 1;}
 }
