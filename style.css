@@ -1,10 +1,21 @@
+:root{
+    --aqua: rgb(0, 255, 255);
+    --purple: rgb(174, 3, 174);
+}
+
 body{
     font-family: 'Monocraft', sans-serif;
     font-size: 16px;
     background-color: rgb(33, 34, 34);
     color: white;
     margin: 50px;
+    text-shadow: 4px 4px 1px var(--purple);
 }
+.container {
+    display: grid;
+    gap: 50px;
+}
+
 
 p{
     color: white;
@@ -12,7 +23,7 @@ p{
 
 mark{
     background-color: rgba(0, 0, 0, 0);
-    color: rgb(0, 150, 150);
+    color: var(--aqua);
 }
 
 h1{
@@ -20,10 +31,10 @@ h1{
 }
 
 h2{
-    color: rgb(0, 150, 150);
+    color: var(--aqua);
 }
 b{
-    color: rgb(0, 150, 150);
+    color: var(--aqua);
 }
 
 @font-face {
